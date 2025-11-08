@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "jni_demo"
 include(":app")
- 
+include(":scrfdncnnLib")
