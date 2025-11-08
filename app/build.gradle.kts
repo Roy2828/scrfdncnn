@@ -54,6 +54,15 @@ android {
         viewBinding = true
         dataBinding = true
     }
+
+
+
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true  // 使用 = 赋值
+        }
+    }
 }
 
 dependencies {
